@@ -1,4 +1,4 @@
-# sanctum-vue-app
+# vue-app-adminlte
 
 ## Project setup
 ```
