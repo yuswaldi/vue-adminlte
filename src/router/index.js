@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../components/views/Home.vue'
 import MainLayout from '../components/MainLayout.vue'
 
 Vue.use(VueRouter)
@@ -32,7 +32,7 @@ Vue.use(VueRouter)
   {
     path: '/login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "login" */ '../views/Login.vue')
+    component: () => import(/* webpackChunkName: "login" */ '../components/views/Login.vue')
   }
 ]
 
