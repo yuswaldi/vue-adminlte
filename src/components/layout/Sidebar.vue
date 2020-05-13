@@ -22,6 +22,19 @@
           <a href="#" class="d-block">Alexander Pierce</a>
         </div>
       </div>
+
+      <!-- Sidebar Menu -->
+      <sidebar-menu />
+      <!-- /.sidebar-menu -->
     </div>
   </aside>
 </template>
+<script>
+import SidebarMenu from './SidebarMenu'
+
+export default {
+  name: 'Sidebar',
+  props: ['user'],
+  components: { SidebarMenu },
+}
+</script>
